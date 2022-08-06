@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Portfolio</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <!-- Links -->
+</head>
+<body>
+    <!-- wrap all -->
+    <div class="page-wrap">
+        <!-- wrap header -->
+        <div class="header-wrap">
+            <h1 class="text">My web Portfolio</h1>
+        </div>
+        <!-- divided sections wrap -->
+        <div class="content">
+            <div class="left-area">
+                <div class="image-container">
+                    <img class="image-float" src="image/profilepic2.jpg" alt="rogino profile picture">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#hobbies" onclick="loadHtml('template','hobbies.html')">Hobbies</a></li>
+                        <li><a href="#interest" onclick="loadHtml('template','interest.html')">Interest</a></li>
+                        <li><a href="#resume" onclick="loadHtml('template','resume.html')">Resume</a></li>
+                        <li><a href="#contactme" onclick="loadHtml('template','contactme.html')"><span class="cta-btn">Contact Me</span></a></li>
+                    </ul>
+                </nav>
+            <img class="splash" src="image/computer_person.svg" alt="person in front of computer">
+            </div>
+            <div id="template" class="right-area">
+                <div class="right-area__wrap">
+                    <div class="right-area__content">
+                        <h2>Hi, I am Rogino Apacible, Junior Web Designer from Oakville, Ontario</h2>
+                        <p>Focused person having intermediate technical and communication skills in computer industry. Beginner web developer with a process of Design, Prototyping, and web programming.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</body>
+</html>
